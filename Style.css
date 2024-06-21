@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+.top-screen{
+    display:flex;
+    gap:12px;
+    flex-wrap: wrap;
+    position: relative;
+    top:50px;
+    left:150px;       
+}
+#icon{
+    position: relative;
+    top:10px;
+    width:90px;
+}
+#title h1{
+    font-size: 60px;
+    color: white;
+    margin:0px;
+}
+.game{
+    position: relative;
+    top:150px;
+    left:22%;
+}
+#text-container{
+    font-size: 60px;
+    color: #424040
+}
+#user-text-container{
+    font-size:60px;
+    color:white;
+    position: relative;
+    top: -70px;
+}
