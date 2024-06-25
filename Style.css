@@ -1,35 +1,118 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
-.top-screen{
-    display:flex;
-    gap:12px;
-    flex-wrap: wrap;
-    position: relative;
-    top:50px;
-    left:150px;       
+.header {
+  display: flex;
+  gap: 12px;
+  position: relative;
+  left: 180px;
+  top: 80px;
 }
-#icon{
-    position: relative;
-    top:10px;
-    width:90px;
+
+#icon {
+  width: 70px;
+  position: relative;
+  top: 15px;
 }
-#title h1{
-    font-size: 60px;
-    color: white;
-    margin:0px;
+
+#title h1 {
+  font-size: 50px;
+  color: white;
+  margin: 0px;
 }
-.game{
-    position: relative;
-    top:150px;
-    left:22%;
+
+#slogan p {
+  margin: 0px;
+  font-size: 15px;
+  color: white;
+  position: relative;
+  left: -190px;
 }
-#text-container{
-    font-size: 60px;
-    color: #424040
+
+.game {
+  position: fixed;
+  top: 300px;
+  left: 250px;
 }
-#user-text-container{
-    font-size:60px;
-    color:white;
-    position: relative;
-    top: -70px;
+
+#user-container{
+  color: #5e5e5e;
+  max-width: 1400px;
+  max-height: 280px;
+  font-size: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  position: relative;
+}
+
+#word{
+  display: flex;
+  margin: 0 10px;
+}
+
+#word-completed{
+  display: flex;
+  margin: 0 10px;
+}
+
+#letter-wrong{
+  color:red;
+}
+#letter-completed{
+  color: white;
+}
+
+#restart button{
+  position: relative;
+  width:50px;
+  height: 50px;
+  left:600px;
+}
+
+#timer{
+  display: none;
+  font-size:50px;
+  color: white;
+  position: fixed;
+  top:220px;
+}
+
+#wpm-text{
+  color: white;
+  font-size: 50px;
+  position: fixed;
+  top:220px;
+  left: 600px;
+}
+
+#accuracy{
+  color: white;
+  font-size: 50px;
+  position: fixed;
+  top:220px;
+  left: 1000px;
+}
+#restart-button{
+  position: fixed;
+  left: 850px;
+}
+
+#restart {
+  padding: 15px 30px;
+  font-size: 1.5em; 
+  color: white;
+  background-color: #333232;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#restart:hover {
+  background-color: #474747;
+  transform: translateY(-2px);
+}
+#restart:active {
+  background-color: #333232;
+  transform: translateY(2px);
 }
